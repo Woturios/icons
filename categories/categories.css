@@ -72,7 +72,7 @@
   margin: auto;
   padding: 150px 32px;
   width: 100%;
-  height: 100%;
+  height: 55em;
 }
 
 div.responsive{
@@ -100,6 +100,11 @@ div.desc {
 }
 
 
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
 
 
 .clearfix:after {
@@ -112,10 +117,6 @@ div.desc {
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
-}
-
-.clear {
-  clear: both;
 }
 
 
