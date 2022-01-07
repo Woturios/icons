@@ -125,8 +125,8 @@ body {
 
 @media only screen and (max-width: 900px) {
   div.responsive {
-    width: 49.99999%;
-    margin: 6px 0;
+    width: 47%;
+    margin: 20px 0px 0px 15px;
   }
 
 
@@ -220,6 +220,7 @@ div.gallery img:hover {
 @media only screen and (max-width: 600px) {
   div.responsive {
     width: 100%;
+    margin: auto 0px 0px 0px;
   }
 
 }
