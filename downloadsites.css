@@ -99,6 +99,19 @@ body {
     cursor: pointer;
     font-size: 20px;
   }
+
+@media only screen and (max-width: 600px) {
+        .halfsite {
+        width: 90%;
+        margin: auto;
+        float: none;
+        margin-bottom: 30px;
+     }
+
+     .aboutitem {
+         padding-left: 0;
+     }
+    }
   
 
   @media (prefers-color-scheme: dark) {
