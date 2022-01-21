@@ -6,9 +6,16 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: rgb(245, 240, 240);
+  color: #201f1f;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
 .navbar {
   width: 100%;
-  background: #201f1f;
+  background: #fff;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -36,7 +43,7 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  color: #fff;
+  color: #0f0f0f;
 }
 
 .navbar__menu {
@@ -50,7 +57,7 @@
 }
 
 .navbar__links {
-  color: #fff;
+  color: #0f0f0f;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,7 +68,7 @@
 }
 
 .navbar__links:hover {
-  color: #ee091c;
+  color: #777;
   transition: all 0.3s ease;
 }
 
@@ -88,7 +95,6 @@ div.responsive{
 div.gallery img {
   width: 100%;
   object-fit: fill;  
-  border-radius: 5px;
 }
 
 div.gallery img:hover {
@@ -110,16 +116,26 @@ div.desc {
 
 
 
-body {
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-}
-
 .clear {
   clear: both;
 }
 
+/*
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 
+button{
+  background-color: #201f1f;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+*/
 
 
 
@@ -131,90 +147,90 @@ body {
   }
 
 
-div.gallery img:hover {
-  border: none;
-}
+  div.gallery img:hover {
+    border: none;
+  }
 
 
-.navbar__container {
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
-  z-index: 1;
-  width: 100%;
-  max-width: 1300px;
-  padding: 0;
-}
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0;
+  }
 
-.navbar__menu {
-  display: grid;
-  grid-template-columns: auto;
-  margin: 0;
-  width: 100%;
-  position: absolute;
-  top: -1000px;
-  opacity: 1;
-  transition: all 0.5s ease;
-  z-index: -1;
-}
+  .navbar__menu {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: -1000px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: -1;
+  }
 
-.navbar__menu.active {
-  background: #201f1f;
-  top: 100%;
-  opacity: 1;
-  transition: all 0.5s ease;
-  z-index: 99;
-  height: 40vh;
-  font-size: 1.6rem;
-}
+  .navbar__menu.active {
+    background: #fff;
+    top: 100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 99;
+    height: 40vh;
+    font-size: 1.6rem;
+  }
 
-#navbar__logo {
-  padding-left: 25px;
-}
+  #navbar__logo {
+    padding-left: 25px;
+  }
 
-.navbar__toggle .bar {
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  transition: all 0.3s ease-in-out;
-  background: #fff;
-}
+  .navbar__toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: #0f0f0f;
+  }
 
-.navbar__item {
-  width: 100%;
-}
+  .navbar__item {
+    width: 100%;
+  }
 
-.navbar__links {
-  text-align: center;
-  padding: 1rem;
-  width: 100%;
-  display: table;
-}
+  .navbar__links {
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    display: table;
+  }
 
 
-#mobile-menu {
-  position: absolute;
-  top: 20%;
-  right: 5%;
-  transform: translate(5%, 20%);
-}
+  #mobile-menu {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translate(5%, 20%);
+  }
 
-.navbar__toggle .bar {
-  display: block;
-  cursor: pointer;
-}
+  .navbar__toggle .bar {
+    display: block;
+    cursor: pointer;
+  }
 
-#mobile-menu.is-active .bar:nth-child(2) {
-  opacity: 0;
-}
+  #mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
 
-#mobile-menu.is-active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
+  #mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
 
-#mobile-menu.is-active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
+  #mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 }
 
 
@@ -223,7 +239,34 @@ div.gallery img:hover {
     width: 100%;
     margin: auto 0px 0px 0px;
   }
+}
 
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0f0f0f;
+    color: white;
+  }
+
+  .navbar{
+    background-color: #201f1f;
+  }
+
+  .navbar__menu.active{
+    background-color: #201f1f;
+  }
+
+  .navbar__toggle .bar {
+    background-color: white;
+  }
+
+  #navbar__logo {
+    color: white;
+  }
+
+  .navbar__links {
+    color: white;
+  }
 }
 
 

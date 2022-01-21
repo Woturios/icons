@@ -13,3 +13,8 @@ menu.addEventListener('click', mobileMenu);
 function scrollToTop() {
   window.scrollTo(0, 0);
 }
+
+function darkmode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
