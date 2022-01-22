@@ -14,11 +14,11 @@ div.gallery img {
 }
 
 div.gallery {
-  border: solid 1px white;
+  border: solid 1px rgb(221, 221, 221);
 }
 
 div.gallery:hover {
-  border: 2px solid #201f1f;
+  border: 2px solid white;
 }
 
 div.desc {
@@ -47,10 +47,10 @@ div.desc {
 
 @media (prefers-color-scheme: dark) {
   div.gallery {
-    border: solid 1px #201f1f;
+    border: solid 1px  #201f1f;
+}
+
+div.gallery:hover {
+  border: 2px solid white;
   }
-  
-  div.gallery:hover {
-    border: 2px solid white;
-  }
-  }
+}
