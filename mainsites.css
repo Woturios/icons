@@ -13,8 +13,12 @@ div.gallery img {
   object-fit: fill;  
 }
 
-div.gallery img:hover {
-  border: 2px solid #777;
+div.gallery {
+  border: solid 1px #201f1f;
+}
+
+div.gallery:hover {
+  border: 2px solid white;
 }
 
 div.desc {
@@ -25,7 +29,7 @@ div.desc {
 @media only screen and (max-width: 900px) {
     div.responsive {
       width: 47%;
-      margin: 20px 0px 0px 15px;
+      margin: 30px 0px 0px 15px;
     }
   
   
@@ -37,6 +41,6 @@ div.desc {
 @media only screen and (max-width: 600px) {
         div.responsive {
         width: 100%;
-        margin: auto 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
      }
     }
