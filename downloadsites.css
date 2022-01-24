@@ -103,12 +103,24 @@ body {
 
   .separator {
     width: 40px;
-    height: 1px;
+    height: 47px;
     float: left;
     display: block;
   }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
+  .separator {
+    clear: both;
+  }
+
+  .btn{
+    clear: both;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
         .halfsite {
         width: 90%;
         margin: auto;
@@ -119,8 +131,18 @@ body {
      .aboutitem {
          padding-left: 0;
      }
+
+     .separator {
+       float: none;
+       height: 40px;
+     }
+     
+     .btn {
+       float: none;
+     }
     }
   
+
 
   @media (prefers-color-scheme: dark) {
       a {

@@ -98,7 +98,7 @@ body {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
 
 
   .navbar__container {
@@ -182,13 +182,15 @@ body {
   }
 }
 
-@media only screen 
+@media screen 
 and (max-width: 900px)
 and (orientation: landscape) {
   .navbar__menu.active {
     height: 70vh;
   }
 }
+
+
 
 
 
