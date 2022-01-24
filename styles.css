@@ -97,6 +97,11 @@ body {
   clear: both;
 }
 
+a {
+  color: rgb(75, 60, 216);
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 900px) {
 
@@ -218,6 +223,10 @@ and (orientation: landscape) {
 
   .navbar__links {
     color: white;
+  }
+
+  a {
+    color: orange;
   }
 }
 

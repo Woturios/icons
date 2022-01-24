@@ -10,10 +10,7 @@ body {
     vertical-align: middle;
   }
 
-  a {
-      color: midnightblue;
-      text-decoration: none;
-  }
+
   
   /* Position the image container (needed to position the left and right arrows) */
   .container {
@@ -144,10 +141,5 @@ body {
   
 
 
-  @media (prefers-color-scheme: dark) {
-      a {
-        color: orange;
-      }
-  }
   
 
