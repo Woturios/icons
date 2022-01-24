@@ -26,10 +26,22 @@ div.desc {
   text-align: center;
 }
 
+.icons {
+  padding-bottom: 60px;
+}
+
+.category__container {
+  margin-left: 2.9%;
+}
+
 @media only screen and (max-width: 900px) {
     div.responsive {
       width: 47%;
       margin: 30px 0px 0px 15px;
+    }
+
+    .category__container {
+      margin-left: 15px;
     }
   
   
@@ -43,6 +55,10 @@ div.desc {
         width: 100%;
         margin: 30px 0px 0px 0px;
      }
+
+     .category__container {
+      margin-left: 0;
+    }
     }
 
 @media (prefers-color-scheme: dark) {
