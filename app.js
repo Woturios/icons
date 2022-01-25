@@ -18,3 +18,14 @@ function darkmode() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
+
+
+function displaymenu () {
+  var x = document.getElementById('iconsthree');
+  if (x.style.display == "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  
+}
