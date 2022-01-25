@@ -202,12 +202,12 @@ and (orientation: landscape) {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #0f0f0f;
+    background-color: #0c031f;
     color: white;
   }
 
   .navbar{
-    background-color: #201f1f;
+    background-color: #19032e;
   }
 
   .navbar__menu.active{
