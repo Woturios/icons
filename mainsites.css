@@ -32,11 +32,23 @@ div.desc {
 
 .category__container {
   margin-left: 2.9%;
+  max-width: 100%;
+  display: block;
 }
 
 h1 {
   font-size: 38px;
   font-weight: 400;
+  float: left;
+  max-width: 100%;
+}
+
+.menu {
+  float: right;
+  font-size: 38px;
+  width: 3%;
+  text-align: right;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
