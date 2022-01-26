@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(245, 240, 240);
+  background-color: rgb(201, 207, 248);
   color: #201f1f;
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -15,7 +15,7 @@ body {
 
 .navbar {
   width: 100%;
-  background: #fff;
+  background: rgb(227, 230, 255);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -24,6 +24,7 @@ body {
   position: fixed;
   top: 0;
   z-index: 9;
+  border-bottom: 2px solid rgb(215, 218, 247);
 }
 
 .navbar__container {
@@ -130,7 +131,7 @@ a {
   }
 
   .navbar__menu.active {
-    background: #fff;
+    background: rgb(227, 230, 255);
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -208,10 +209,11 @@ and (orientation: landscape) {
 
   .navbar{
     background-color: #19032e;
+    border-bottom: #11042e;
   }
 
   .navbar__menu.active{
-    background-color: #201f1f;
+    background-color: #19032e;
   }
 
   .navbar__toggle .bar {
