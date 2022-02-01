@@ -13,18 +13,16 @@ div.gallery img {
   object-fit: fill;  
 }
 
-div.gallery {
-  border: solid 1px rgb(221, 221, 221);
-}
 
-div.gallery:hover {
-  border: 2px solid white;
-}
 
 div.desc {
   padding: 15px;
   text-align: center;
+  background-color: #242424;
+  border-radius: 2px;
+  box-shadow: 10px 5px 5px black;
 }
+
 
 .icons {
   padding-bottom: 60px;
@@ -39,6 +37,10 @@ h1 {
   font-weight: 400;
 }
 
+a.shelf {
+  color: white;
+}
+
 @media screen and (max-width: 900px) {
     div.responsive {
       width: 47%;
@@ -47,11 +49,6 @@ h1 {
 
     .category__container {
       margin-left: 15px;
-    }
-  
-  
-    div.gallery img:hover {
-      border: none;
     }
 }
 
@@ -65,13 +62,3 @@ h1 {
       margin-left: 0;
     }
     }
-
-@media (prefers-color-scheme: dark) {
-  div.gallery {
-    border: solid 1px  #201f1f;
-}
-
-div.gallery:hover {
-  border: 2px solid white;
-  }
-}
