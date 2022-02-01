@@ -5,6 +5,7 @@ div.responsive{
   margin-top: 3%;
   position: relative;
   width: 30.42071197%;
+  box-shadow: 4px 2px 12px teal;
 }
 
 
@@ -18,9 +19,6 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
-  background-color: #242424;
-  border-radius: 2px;
-  box-shadow: 10px 5px 5px black;
 }
 
 
@@ -53,12 +51,18 @@ a.shelf {
 }
 
 @media screen and (max-width: 600px) {
-        div.responsive {
-        width: 100%;
-        margin: 40px 0px 0px 0px;
-     }
+      div.responsive {
+      width: 100%;
+      margin: 40px 0px 0px 0px;
+    }
 
      .category__container {
       margin-left: 0;
     }
-    }
+}
+
+@media (prefers-color-scheme: dark) {
+  div.responsive {
+    box-shadow: 4px 2px 12px black;
+  }
+ }
