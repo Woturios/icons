@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #c1c8e4;
+  background-color: #fff;
   color: #201f1f;
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -15,7 +15,7 @@ body {
 
 .navbar {
   width: 100%;
-  background: #fff;
+  background-color: #c1c8e4;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -139,7 +139,6 @@ a {
     z-index: 99;
     height: 40vh;
     font-size: 1.6rem;
-    border-top: solid 2px #000;
   }
 
   #navbar__logo {
@@ -216,7 +215,6 @@ and (orientation: landscape) {
 
   .navbar__menu.active{
     background-color: #0b0c10;
-    border-top: solid 2px #fff;
   }
 
   .navbar__toggle .bar {
