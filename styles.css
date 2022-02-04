@@ -104,6 +104,12 @@ a {
   text-decoration: none;
 }
 
+.new {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 
 
 @media screen and (max-width: 900px) {
