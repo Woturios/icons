@@ -6,7 +6,8 @@ div.responsive{
   position: relative;
   width: 30.42071197%;
   box-shadow: 10px 5px 15px teal;
-  background-color: #c1c8e4
+  background-color: #c1c8e4;
+  border-radius: 12px;
 }
 
 
