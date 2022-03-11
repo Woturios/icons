@@ -5,7 +5,7 @@ div.responsive{
   margin-top: 3%;
   position: relative;
   width: 30.42071197%;
-  box-shadow: 10px 5px 15px teal;
+  box-shadow: 0px 0px 3px teal;
   background-color: #c1c8e4;
   border-radius: 12px;
 }
@@ -65,7 +65,7 @@ a.shelf {
 
 @media (prefers-color-scheme: dark) {
   div.responsive {
-    box-shadow: 6px 3px 15px black;
+    box-shadow: 0px 0px 3px black;
     background-color: #1f2833;
   }
  }

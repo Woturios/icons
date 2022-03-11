@@ -11,7 +11,7 @@ const mobileMenu = () => {
 menu.addEventListener('click', mobileMenu);
 
 function scrollToTop() {
-  window.scrollTo(0, 0);
+  window.scrollTo({ top: 0, behavior: 'smooth'});
 }
 
 function darkmode() {
